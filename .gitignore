@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+api/.env
+api/.env.*
+!api/.env.example
+!api/.env.production.example
+api/vendor/
+api/storage/*.key
+api/storage/logs/*
+api/bootstrap/cache/*
+*.log
